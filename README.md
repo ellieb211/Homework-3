@@ -19,3 +19,10 @@ my_prin_comps <-  prcomp(~ dominant + threatening + caring + attractive + aggres
 creating a scree plot to visualise how the variables account for the social judgements on faces
 
 open faces_big file
+created lantent variables using faces_b <- "valence =~ trustworthy + caring + responsible + sociable 
+                dominance =~ dominant + confident + aggressive + mean"
+model_faces <- cfa(faces_b, faces_big)
+summary(model_faces)
+and viewing the output showed that trustworthy was in the wrong section. 
+
+creating a visual model better shows this. 
