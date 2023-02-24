@@ -12,3 +12,5 @@ fit <- lm(RecommendationFollowed ~ Mode + CompositeIntellect, data=recommendatio
 This code created the new model with the added variable 
 
 Importing face data 
+must rename the "emotionally stable" variable to something else as the code would not allow the space when attempting a PCA.
+emotionally stable = e_stable
