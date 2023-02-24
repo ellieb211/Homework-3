@@ -1,5 +1,7 @@
 # Homework 3
- Homework 3
+Question 1
+Opens github and creates this :)
+
 Question 2
 Open recommendations.csv data 
 download packages
