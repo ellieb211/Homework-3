@@ -26,3 +26,11 @@ summary(model_faces)
 and viewing the output showed that trustworthy was in the wrong section. 
 
 creating a visual model better shows this. 
+This is the way of analysing this model
+##visualisation model – useful to identify structure of model
+##square – measure variables 
+##circle – factors – latent variables not measured
+##numbers – unstandardised factor regression coefficients
+##double arrow – variances
+##dotted lines – covariances – not a part of model prediction
+
