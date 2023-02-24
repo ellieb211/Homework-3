@@ -10,3 +10,5 @@ This showed significant results for visual recommendations - not significant for
 Adding in another variable for the distinction material - by creating a linear model, how composite intellect and modality of recommendation can affect whether the recommendation is followed. 
 fit <- lm(RecommendationFollowed ~ Mode + CompositeIntellect, data=recommendations)
 This code created the new model with the added variable 
+
+Importing face data 
