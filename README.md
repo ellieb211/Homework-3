@@ -7,3 +7,6 @@ fit the model using m <- glm(RecommendationFollowed ~ Mode, recommendations, fam
 make a plot
 Using this in order to identify the relationship between the the modality of recommendation and recommendation followed
 This showed significant results for visual recommendations - not significant for auditory
+Adding in another variable for the distinction material - by creating a linear model, how composite intellect and modality of recommendation can affect whether the recommendation is followed. 
+fit <- lm(RecommendationFollowed ~ Mode + CompositeIntellect, data=recommendations)
+This code created the new model with the added variable 
