@@ -14,3 +14,4 @@ This code created the new model with the added variable
 Importing face data 
 must rename the "emotionally stable" variable to something else as the code would not allow the space when attempting a PCA.
 emotionally stable = e_stable
+creatnig a scree plot to visualise how the variables account for the social judgements on faces
