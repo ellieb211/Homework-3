@@ -15,4 +15,5 @@ Importing face data
 must rename the "emotionally stable" variable to something else as the code would not allow the space when attempting a PCA.
 emotionally stable = e_stable
 Principle Components analysis
+my_prin_comps <-  prcomp(~ dominant + threatening + caring + attractive + aggressive + mean + intelligent + confident + trustworthy + e_stable + responsible + sociable + weird + unhappy , faces)
 creating a scree plot to visualise how the variables account for the social judgements on faces
