@@ -7,6 +7,7 @@ Open recommendations.csv data
 download packages
 fit the model using m <- glm(RecommendationFollowed ~ Mode, recommendations, family = binomial())
 make a plot
+created a plot by creating a dummy variable for the RecommedationFollowed factor
 Using this in order to identify the relationship between the the modality of recommendation and recommendation followed
 This showed significant results for visual recommendations - not significant for auditory
 Adding in another variable for the distinction material - by creating a linear model, how composite intellect and modality of recommendation can affect whether the recommendation is followed. 
